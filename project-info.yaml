@@ -1,0 +1,9 @@
+project_name: vscode-stonescriptphp
+project_type: tool
+description: VS Code extension for StoneScriptPHP framework development
+tech_stack:
+  - TypeScript
+  - VS Code Extension API
+domain: developer-tools
+status: in-development
+repository: https://github.com/progalaxyelabs/vscode-stonescriptphp

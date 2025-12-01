@@ -1,0 +1,133 @@
+{
+  "StoneScriptPHP Request DTO": {
+    "prefix": "stone-dto-request",
+    "description": "Create a request DTO class",
+    "body": [
+      "<?php",
+      "",
+      "namespace App\\DTO;",
+      "",
+      "/**",
+      " * ${1:EntityName} Request DTO",
+      " *",
+      " * ${2:DTO description}",
+      " */",
+      "class ${1:EntityName}Request",
+      "{",
+      "    public function __construct(",
+      "        public readonly ${3:string} $$${4:field1},",
+      "        public readonly ${5:string} $$${6:field2},",
+      "        ${7:// Add more fields}",
+      "    ) {}",
+      "}",
+      ""
+    ]
+  },
+  "StoneScriptPHP Response DTO": {
+    "prefix": "stone-dto-response",
+    "description": "Create a response DTO class",
+    "body": [
+      "<?php",
+      "",
+      "namespace App\\DTO;",
+      "",
+      "/**",
+      " * ${1:EntityName} Response DTO",
+      " *",
+      " * ${2:DTO description}",
+      " */",
+      "class ${1:EntityName}Response",
+      "{",
+      "    public function __construct(",
+      "        public readonly ${3:int} $$${4:id},",
+      "        public readonly ${5:string} $$${6:field1},",
+      "        public readonly ${7:string} $$${8:field2},",
+      "        ${9:// Add more fields}",
+      "    ) {}",
+      "}",
+      ""
+    ]
+  },
+  "StoneScriptPHP DTO": {
+    "prefix": "stone-dto",
+    "description": "Create a generic DTO class",
+    "body": [
+      "<?php",
+      "",
+      "namespace App\\DTO;",
+      "",
+      "/**",
+      " * ${1:DTOName}",
+      " *",
+      " * ${2:DTO description}",
+      " */",
+      "class ${1:DTOName}",
+      "{",
+      "    public function __construct(",
+      "        public readonly ${3:string} $$${4:field1},",
+      "        public readonly ${5:?string} $$${6:field2} = null,",
+      "        ${7:// Add more fields}",
+      "    ) {}",
+      "}",
+      ""
+    ]
+  },
+  "StoneScriptPHP DTO with Validation": {
+    "prefix": "stone-dto-validated",
+    "description": "Create a DTO with validation method",
+    "body": [
+      "<?php",
+      "",
+      "namespace App\\DTO;",
+      "",
+      "/**",
+      " * ${1:DTOName}",
+      " *",
+      " * ${2:DTO description}",
+      " */",
+      "class ${1:DTOName}",
+      "{",
+      "    public function __construct(",
+      "        public readonly ${3:string} $$${4:field1},",
+      "        public readonly ${5:string} $$${6:field2},",
+      "        ${7:// Add more fields}",
+      "    ) {",
+      "        \\$this->validate();",
+      "    }",
+      "",
+      "    /**",
+      "     * Validate DTO data",
+      "     *",
+      "     * @throws \\InvalidArgumentException",
+      "     */",
+      "    private function validate(): void",
+      "    {",
+      "        ${8:// Add validation logic}",
+      "        if (empty(\\$this->${4:field1})) {",
+      "            throw new \\InvalidArgumentException('${4:field1} is required');",
+      "        }",
+      "    }",
+      "}",
+      ""
+    ]
+  },
+  "StoneScriptPHP DTO Array Property": {
+    "prefix": "stone-dto-array-prop",
+    "description": "Add an array property to a DTO",
+    "body": [
+      "/**",
+      " * @var ${1:string}[] ${2:Property description}",
+      " */",
+      "public readonly array $$${3:propertyName},",
+      ""
+    ]
+  },
+  "StoneScriptPHP DTO Nullable Property": {
+    "prefix": "stone-dto-nullable-prop",
+    "description": "Add a nullable property to a DTO",
+    "body": [
+      "public readonly ${1:?string} $$${2:propertyName} = null,",
+      ""
+    ]
+  }
+}

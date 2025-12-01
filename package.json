@@ -1,0 +1,60 @@
+{
+  "name": "stonescriptphp-snippets",
+  "displayName": "StoneScriptPHP Snippets",
+  "description": "Code snippets for StoneScriptPHP framework - Routes, Models, Contracts, and DTOs",
+  "version": "1.0.0",
+  "publisher": "progalaxyelabs",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "php",
+    "stonescriptphp",
+    "snippets",
+    "framework",
+    "routes",
+    "models",
+    "contracts",
+    "dto",
+    "api",
+    "postgresql"
+  ],
+  "galleryBanner": {
+    "color": "#1e1e1e",
+    "theme": "dark"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "php",
+        "path": "./snippets/routes.json"
+      },
+      {
+        "language": "php",
+        "path": "./snippets/models.json"
+      },
+      {
+        "language": "php",
+        "path": "./snippets/contracts.json"
+      },
+      {
+        "language": "php",
+        "path": "./snippets/dto.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/progalaxyelabs/vscode-stonescriptphp"
+  },
+  "homepage": "https://github.com/progalaxyelabs/vscode-stonescriptphp",
+  "bugs": {
+    "url": "https://github.com/progalaxyelabs/vscode-stonescriptphp/issues"
+  },
+  "qna": "https://github.com/progalaxyelabs/vscode-stonescriptphp/discussions",
+  "license": "MIT"
+}
