@@ -2,7 +2,7 @@
   "name": "stonescriptphp-snippets",
   "displayName": "StoneScriptPHP Snippets",
   "description": "Code snippets for StoneScriptPHP framework - Routes, Models, Contracts, and DTOs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "progalaxyelabs",
   "icon": "icon.png",
   "engines": {
