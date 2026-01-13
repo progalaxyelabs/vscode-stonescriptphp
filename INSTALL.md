@@ -22,13 +22,13 @@ npm install -g @vscode/vsce
 vsce package
 ```
 
-This will create a `.vsix` file (e.g., `stonescriptphp-snippets-1.0.0.vsix`)
+This will create a `.vsix` file (e.g., `stonescriptphp-snippets-1.0.1.vsix`)
 
 ## Install Locally
 
 ### Via Command Line
 ```bash
-code --install-extension stonescriptphp-snippets-1.0.0.vsix
+code --install-extension stonescriptphp-snippets-1.0.1.vsix
 ```
 
 ### Via VS Code UI
@@ -66,7 +66,7 @@ code --install-extension stonescriptphp-snippets-1.0.0.vsix
 ### 3. Login to vsce
 
 ```bash
-vsce login progalaxy-elabs
+vsce login progalaxyelabs
 ```
 
 Enter your Personal Access Token when prompted.

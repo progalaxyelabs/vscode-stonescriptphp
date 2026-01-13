@@ -1,23 +1,28 @@
 # vscode-stonescriptphp - High Level Design
 
 ## Overview
-VS Code extension providing IDE support for StoneScriptPHP framework development.
+VS Code extension providing code snippets for StoneScriptPHP framework development.
 
 ## Features
-- Syntax highlighting for .pssql files (PostgreSQL functions)
-- Code snippets for routes, models, migrations
-- IntelliSense for StoneScriptPHP APIs
-- Integration with `php stone` CLI commands
-- Project templates and scaffolding
+- Code snippets for routes (GET, POST, with contracts, health checks)
+- Code snippets for models (CRUD operations)
+- Code snippets for contracts (interfaces)
+- Code snippets for DTOs (Data Transfer Objects - request, response, validated)
 
 ## Architecture
-VS Code extension using TypeScript and Language Server Protocol.
+Simple VS Code snippets extension with no custom TypeScript code. Uses JSON snippet files to provide IntelliSense and autocomplete functionality.
 
 ## Tech Stack
-- TypeScript
-- VS Code Extension API
-- Language Server Protocol (optional)
+- JSON (snippet definitions)
+- VS Code Extension API (via package.json manifest)
+- No custom code - pure snippet-based extension
+
+## Snippet Categories
+- `snippets/routes.json` - Route snippets
+- `snippets/models.json` - Model snippets
+- `snippets/contracts.json` - Contract snippets
+- `snippets/dto.json` - DTO snippets
 
 ## Distribution
-- Published to VS Code Marketplace
-- GitHub repository for open source contributions
+- Published to VS Code Marketplace as "stonescriptphp-snippets"
+- GitHub repository for open source contributions at https://github.com/progalaxyelabs/vscode-stonescriptphp

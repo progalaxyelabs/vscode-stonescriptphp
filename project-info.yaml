@@ -1,3 +1,4 @@
+project_code: VSSP-001
 project_name: vscode-stonescriptphp
 project_type: tool
 description: VS Code extension for StoneScriptPHP framework development

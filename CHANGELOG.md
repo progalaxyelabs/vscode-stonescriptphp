@@ -2,6 +2,12 @@
 
 All notable changes to the "stonescriptphp-snippets" extension will be documented in this file.
 
+## [1.0.1] - 2024-12-01
+
+### Updated
+- Updated documentation and metadata
+- Improved package manifest
+
 ## [1.0.0] - 2024-12-01
 
 ### Added

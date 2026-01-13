@@ -123,13 +123,17 @@ StoneScriptPHP is a lightweight PHP framework designed for building modern APIs 
 
 ## Contributing
 
-Contributions are welcome! Please visit the [GitHub repository](https://github.com/progalaxy-elabs/stonescriptphp) to report issues or submit pull requests.
+Contributions are welcome! Please visit the [GitHub repository](https://github.com/progalaxyelabs/vscode-stonescriptphp) to report issues or submit pull requests.
 
 ## License
 
 MIT License - See LICENSE file for details
 
 ## Release Notes
+
+### 1.0.1
+
+Updated documentation and metadata for better clarity.
 
 ### 1.0.0
 

@@ -12,7 +12,7 @@
 
 **Option 2: From .vsix File**
 1. Download the `.vsix` file
-2. Run: `code --install-extension stonescriptphp-snippets-1.0.0.vsix`
+2. Run: `code --install-extension stonescriptphp-snippets-1.0.1.vsix`
 3. Reload VS Code
 
 ### Use the Snippets
@@ -49,14 +49,14 @@ stone-dto-response
 
 ```bash
 # Navigate to extension directory
-cd /ssd2/projects/progalaxy-elabs/foundation/stonescriptphp/vscode-stonescriptphp
+cd /ssd2/projects/progalaxy-elabs/divisions/opensource/stonescriptphp/vscode-stonescriptphp
 
 # Package (requires vsce)
 npm install -g @vscode/vsce
 ./package.sh
 
 # Install locally
-code --install-extension stonescriptphp-snippets-1.0.0.vsix
+code --install-extension stonescriptphp-snippets-1.0.1.vsix
 
 # Test in VS Code
 # 1. Open a PHP file
@@ -68,7 +68,7 @@ code --install-extension stonescriptphp-snippets-1.0.0.vsix
 
 ```bash
 # Login (one time)
-vsce login progalaxy-elabs
+vsce login progalaxyelabs
 
 # Publish
 vsce publish

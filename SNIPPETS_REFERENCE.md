@@ -308,5 +308,5 @@ You can customize these snippets by:
 
 Or modify the extension directly in:
 ```
-~/.vscode/extensions/progalaxy-elabs.stonescriptphp-snippets-1.0.0/snippets/
+~/.vscode/extensions/progalaxy-elabs.stonescriptphp-snippets-1.0.1/snippets/
 ```

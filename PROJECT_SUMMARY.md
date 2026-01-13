@@ -82,8 +82,8 @@ vscode-stonescriptphp/
 
 - **Extension Name:** stonescriptphp-snippets
 - **Display Name:** StoneScriptPHP Snippets
-- **Version:** 1.0.0
-- **Publisher:** progalaxy-elabs
+- **Version:** 1.0.1
+- **Publisher:** progalaxyelabs
 - **License:** MIT
 - **Minimum VS Code Version:** 1.80.0
 - **Language:** PHP
@@ -109,7 +109,7 @@ vscode-stonescriptphp/
 
 3. Install locally:
    ```bash
-   code --install-extension stonescriptphp-snippets-1.0.0.vsix
+   code --install-extension stonescriptphp-snippets-1.0.1.vsix
    ```
 
 ### For Publishing to VS Code Marketplace
@@ -118,7 +118,7 @@ vscode-stonescriptphp/
 2. Get a Personal Access Token from https://dev.azure.com/
 3. Login:
    ```bash
-   vsce login progalaxy-elabs
+   vsce login progalaxyelabs
    ```
 4. Publish:
    ```bash
@@ -160,9 +160,9 @@ All JSON files have been validated:
 
 ## Repository
 
-The extension should be published from the StoneScriptPHP repository:
+The extension is published from its own repository:
 - **Repo Type:** git
-- **URL:** https://github.com/progalaxy-elabs/stonescriptphp
+- **URL:** https://github.com/progalaxyelabs/vscode-stonescriptphp
 
 ## Support
 
@@ -173,6 +173,7 @@ Users can report issues or request features through:
 
 ## Version History
 
+- **1.0.1** (2024-12-01) - Updated documentation and metadata
 - **1.0.0** (2024-12-01) - Initial release with 28 snippets across 4 categories
 
 ## License
